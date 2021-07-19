@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(https://cdna.artstation.com/p/assets/images/images/023/863/488/original/yongjae-choe-1112.gif?1580583315);
+	background-repeat:no-repeat ;
+	background-size: cover;
+	display: flex;
+	height: 100%;
+}
+/*rotate*/
+.a{
+	width: 30vh;
+	height: 30vh;
+	transition: all 1s ease-in-out;
+	margin-left: 8vh;
+	margin-top: 40vh;
+}
+.a img{
+	width: 30vh;
+	height: 30vh;
+	border-radius: 50%;
+	opacity: 0.2;
+}
+.a:hover{
+	transform: rotate(360deg);
+}
+/*skew*/
+.b{
+	width: 30vh;
+	height: 30vh;
+	transition: all 1s ease-in-out;
+	margin-left: 25vh;
+	margin-top: 40vh;
+}
+.b img{
+	width: 30vh;
+	height: 30vh;
+	border-radius: 40px;
+	opacity: 0.2;
+}
+.b:hover{
+	transform: skew(10deg);
+}
+/*scale*/
+.c{
+	width: 30vh;
+	height: 30vh;
+	transition: all 1s ease-in-out;
+	margin-left: 18vh;
+	margin-top: 40vh;
+}
+.c img{
+	width: 30vh;
+	height: 30vh;
+	border-radius: 10px;
+	opacity: 0.1;
+}
+.c:hover{
+	transform: scale(2);
+}
+/*translate*/
+.d{
+	width: 30vh;
+	height: 30vh;
+	transition: all 1s ease-in-out;
+	margin-left: 20vh;
+	margin-top: 40vh;
+}
+.d img{
+	width: 30vh;
+	height: 30vh;
+	border-radius: 10px;
+	opacity: 0.4;
+}
+.d:hover{
+	transform: translate3d(123px, 123px, 10px);
+}
